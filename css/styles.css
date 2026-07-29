@@ -1,0 +1,160 @@
+.contener {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+
+h3 {
+    border-bottom: 2px solid rgb(87, 87, 87);
+    border-left: 4px solid black;
+    padding: 8px;
+}
+
+.menu-01 ul {
+    list-style: none;
+    /* Remove os marcadores */
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 200px;
+}
+
+.menu-01 a {
+    /* "a" seria a ancora */
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.menu-01 li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu-02 ul {
+    list-style: none;
+    /* Remove os marcadores */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(83, 83, 83);
+    width: 200px;
+}
+
+.menu-02 a {
+    /* "a" seria a ancora */
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    border-left: 9px solid black;
+    border-right: 6px solid rgb(161, 154, 154);
+    display: block;
+
+
+}
+
+.menu-02 li a:hover {
+    background-color: rgb(0, 0, 0);
+    /* color: red; */
+    /* border-right: 4px solid black; */
+
+}
+
+
+.menu-03 ul {
+    list-style: none;
+    /* Remove os marcadores */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+}
+
+.menu-03 a {
+    /* "a" seria a ancora */
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(2, 28, 114);
+    border-left: 9px solid rgb(2, 86, 163);
+
+}
+
+.menu-03 li a:hover {
+    background-color: rgb(69, 108, 214);
+    color: white;
+    border-right: 4px solid rgb(72, 6, 224);
+    border-right: 5px solid blue;
+    text-align: right;
+}
+
+.menu-04 ul {
+    list-style:none;
+    /* Remove os marcadores */
+    margin: 0;
+    padding:0 ;
+    background-color: rgb(197, 40, 163);
+    width: 200px;
+    border-radius: 20px
+}
+
+.menu-04 a {
+    /* "a" seria a ancora */
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(248, 248, 248);
+    border-left: 9px solid rgb(68, 0, 48);
+    border-radius: 20px;
+    border-right: 8px solid rgb(255, 3, 242);
+ 
+
+}
+
+.menu-04 li a:hover {
+    background-color: rgb(255, 4, 234);
+    color: white;
+    border-right: 4px solid rgb(72, 6, 224);
+    border-right: 5px solid blue;
+  
+   
+}
+
+.menu-05 ul {
+    list-style:none;
+    /* Remove os marcadores */
+    margin: 0;
+    padding:0 ;
+    background-color: rgb(90, 59, 59) (197, 40, 163);
+    width: 200px;
+    border-radius: 20px
+}
+
+.menu-05 a {
+    /* "a" seria a ancora */
+    display: block;
+    color: rgb(255, 2, 2);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(2, 2, 2);
+    border-left: 9px solid rgb(0, 0, 0);
+    border-top: 5px solid rgb(8, 8, 8);
+    border-right: 8px solid rgb(0, 0, 0);
+ 
+
+}
+
+.menu-05 li a:hover {
+    background-color: rgb(206, 111, 3);
+    color: rgb(161, 1, 1);
+
+    border-right: 5px solid rgb(255, 255, 255);
+  
+   
+}
